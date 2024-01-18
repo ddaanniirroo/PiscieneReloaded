@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_params.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dvoronin <dvoronin@student.42yerevan.am    +#+  +:+       +#+        */
+/*   By: dvoronin <dvoronin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/08 19:44:27 by dvoronin          #+#    #+#             */
-/*   Updated: 2024/01/18 14:58:31 by dvoronin         ###   ########.fr       */
+/*   Updated: 2024/01/18 15:29:22 by dvoronin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int	main(int ac, char **av)
 	while (i < ac)
 	{
 		ft_putstr(av[i]);
-		write(1, "\n", 1);
+		ft_putchar('\n');
 		i++;
 	}
 }

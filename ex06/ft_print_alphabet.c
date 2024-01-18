@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dvoronin <dvoronin@student.42yerevan.am    +#+  +:+       +#+        */
+/*   By: dvoronin <dvoronin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/08 19:26:50 by dvoronin          #+#    #+#             */
-/*   Updated: 2024/01/18 14:41:31 by dvoronin         ###   ########.fr       */
+/*   Updated: 2024/01/18 15:35:01 by dvoronin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,4 @@ void	ft_print_alphabet(void)
 		ft_putchar(c);
 		c++;
 	}
-	ft_putchar('\n');
 }

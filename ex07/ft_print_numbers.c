@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dvoronin <dvoronin@student.42yerevan.am    +#+  +:+       +#+        */
+/*   By: dvoronin <dvoronin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/08 19:28:20 by dvoronin          #+#    #+#             */
-/*   Updated: 2024/01/18 14:41:40 by dvoronin         ###   ########.fr       */
+/*   Updated: 2024/01/18 15:34:48 by dvoronin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,4 @@ void	ft_print_numbers(void)
 		ft_putchar(c);
 		c++;
 	}
-	ft_putchar('\n');
 }
